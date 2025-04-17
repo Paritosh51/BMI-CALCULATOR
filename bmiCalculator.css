@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 400px;
+    background:rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+    margin-top: 100px;
+}
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 20px;
+    background:rgba(255, 255, 255, 0.2);
+}
+button{
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+p{
+    font-size: 18px;
+    margin-top: 30px;
+    color: #333;
+}
+.weight{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+}
+.height{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+}
+.gender{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+}
+.age{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+}
+h1{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}

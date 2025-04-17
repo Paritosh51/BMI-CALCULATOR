@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./bmiCalculator.css">
+</head>
+<body>
+   <div class="container">
+    <h1>BMI Calculator</h1>
+    <div class="age">
+    <label for="age"><b>Age:</b></label>
+    <input type="number" id="age" placeholder="Enter your age" required>
+    </div>
+
+    <div class="gender">Gender
+    <label for="gender"><b>Male:</b></label>
+    <input type="radio" id="male" name="gender" value="male" >
+    <label for="gender"><b>Female:</b></label>
+    <input type="radio" id="female">
+</div>
+<hr>
+
+<div class="height">
+    <label for="height"><b>Height(c.m.):</b></label>
+    <input type="range" id="height" min="60" max="320" value="170" oninput="updateHeightValue(this.value)">
+    <span id="height_value"><b>170</b></span><b>cm</b>
+    
+</div>
+<hr>
+
+    <div class="weight">
+    <label for="weight"><b>Weight(k.g.):</b></label>
+    <input type="range" id="weight" min="60" max="220" value="70" oninput="updateWeightValue(this.value)">
+    <span id="weight_value"><b>70</b></span><b>kg</b>
+   </div>
+   <hr>
+   <button id="calculate">Calculate BMI</button>
+   <p><b>Your BMI:0</b></p>
+   </div>
+
+   <script src="./bmiCalculator.js"></script>
+
+</body>
+</html>
